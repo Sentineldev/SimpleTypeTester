@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <h1 id="header">Typing Tester</h1>
+        <p>Te gustaria poner a prueba tus habilidades en el teclado? Escribe cada palabra del texto debajo en la menor cantidad de tiempo que puedas!</p>
+        <h1 id="timer">Tiempo total</h1>
+        <div class="texto">
+            <span class="completado">fasfas</span>
+        </div>
+        <input disabled onkeyup="validar_palabra(event)" type="text" class="entradatexto">
+        <button id="boton_comenzar">Comenzar</button>
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
